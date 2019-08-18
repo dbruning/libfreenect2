@@ -53,7 +53,7 @@ static RgbPacketProcessor *getDefaultRgbPacketProcessor()
     return tegra;
   else
     delete tegra;
-  return new TurboJpegRgbPacketProcessor();
+// return new TurboJpegRgbPacketProcessor();
 #elif defined(LIBFREENECT2_WITH_TURBOJPEG_SUPPORT)
   return new TurboJpegRgbPacketProcessor();
 #else

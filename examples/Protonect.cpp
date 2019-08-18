@@ -361,7 +361,7 @@ int main(int argc, char *argv[])
     if (enable_rgb && enable_depth)
     {
 /// [registration]
-      registration->apply(rgb, depth, &undistorted, &registered);
+   //   registration->apply(rgb, depth, &undistorted, &registered);
 /// [registration]
     }
 
